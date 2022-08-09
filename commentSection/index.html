@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Section</title>
+    <link rel="stylesheet" href="./styles/style.css"/>
+    <script defer src="./scripts/script.js"></script>
+</head>
+<body>
+    <div class="LINE"></div>
+    <div class="COMMENT_SECTION">
+        <!-- This div houses all comments -->
+        <div class="PRIMARY_COMMENTS">
+            <!-- there will be mulitple of these divs and they are created everytime a primary comment is made -->
+            <div class="SINGLE_COMMENT">
+                <!-- Everything here will go into SINGLE_RESPONSE div as well -->
+                <div class="COMMENT_HEADER">
+                    <div class="ProfileCircle"></div>
+                    <div class="Name"></div>
+                    <div class="TimePosted"></div>
+                </div>
+                <div class="COMMENT_BODY"></div>
+                <div class="COMMENT_OPTIONS">
+                    <div class="SingleOption" id="like"></div>
+                    <div class="SingleOption" id="reshare"></div>
+                    <div class="SingleOption" id="link"></div>
+                    <div class="SingleOption" id="save"></div>
+                </div>
+                <!-- All responses to the comment will go here. -->
+                <div class="COMMENT_RESPONSES">
+                    <div class="SINGLE_RESPONSE"></div>
+                </div>
+            </div>
+        </div>
+        <!-- This is where users can add comments -->
+        <div class="ADD_COMMENT">
+            <div class="ProfileCircle"></div>
+            <div class="COMMENT_BODY">
+                <div class="COMMENT_TEXT"></div>
+                <div class="COMMENT_OPTIONS">
+                    <div class="CommentOption" id="add_pic"></div>
+                    <div class="CommentOption" id="add_emoji"></div>
+                    <div class="CommentOption" id="add_doc"></div>
+                    <div class="CommentOption" id="hash_tag"></div>
+                    <div class="Button blue">Reply</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="LINE"></div>
+</body>
+</html>
